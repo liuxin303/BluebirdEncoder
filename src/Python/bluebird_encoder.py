@@ -96,7 +96,7 @@ class BlueBird:
                        return self.data_lis
                     
                     return True
-        
+        self.__buffer_lis = [] # 校验失败也要清空缓冲数组
         return False
 
 
