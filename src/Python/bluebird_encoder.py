@@ -5,7 +5,7 @@ Date: 2022-12-21 21:17:29
 LastEditTime: 2022-12-28 11:09:32
 LastEditors: CloudSir
 Description: 青鸟编码器
-Version: 1.0
+Version: 1.1
 '''
 
 class BlueBird:
