@@ -44,7 +44,7 @@ class BlueBird:
                 if data_byte == self.head2: # 第二帧头
                     self.__state_code += 1
                     return False
-
+            self.__buffer_lis = [] # 校验失败也要清空缓冲数组
             return False
 
         if self.__state_code == 1:
